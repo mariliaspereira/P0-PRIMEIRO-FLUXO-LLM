@@ -1,1 +1,7 @@
-# Comunicação com o modelo de linguagem
+def consultar_llm(prompt):
+    """
+    Envia um prompt ao modelo de linguagem
+    e retorna a resposta gerada.
+    """
+
+    pass
