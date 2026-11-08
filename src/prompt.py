@@ -18,6 +18,11 @@ def criar_prompt(resumo):
     - Se uma informação não estiver disponível, escreva:
       "Não identificado no resumo".
     - Seja claro e objetivo.
+    - Identifique as informações pelo seu significado e contexto,
+      mesmo quando o resumo utilizar palavras diferentes das
+      categorias solicitadas.
+    - Não exija que o texto contenha expressões literais como
+      "objetivo do estudo" ou "população estudada".
 
     RESUMO DO ARTIGO:
     {resumo}
